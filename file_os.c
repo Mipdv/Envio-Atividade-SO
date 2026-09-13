@@ -1,6 +1,10 @@
 #include <stdio.h>
 #include <string.h>
 
+int escrita();
+int leitura();
+int renomear();
+int deletar();
 
 int main (void){
     escrita();
@@ -8,10 +12,6 @@ int main (void){
     renomear();
     deletar();
 }
-
-
-
-
 
 int escrita () {
     FILE *arquivo = fopen("exemplo.txt", "w");
@@ -56,7 +56,7 @@ int renomear(){
 }
 
 int deletar(){
-    if(remove("exemplo.txt") !=0){
+    if(remove("exemplo2.txt") !=0){
         printf("Erro ao deletar arquivo.\n");
         return 1;
     }
