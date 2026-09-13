@@ -1,0 +1,2 @@
+teste de escrita e leitura com arquivos
+teste finalizado
