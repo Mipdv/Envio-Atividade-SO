@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <unistd.h>
+#include <unistd.h>//Acesso à POSIX
 #include <sys/wait.h>
 
 int main(void) {
